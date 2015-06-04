@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		722713C91B2063BB00DAB6C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 722713C81B2063BB00DAB6C8 /* main.m */; };
+		722713CC1B2063BB00DAB6C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722713CB1B2063BB00DAB6C8 /* AppDelegate.m */; };
+		722713CF1B2063BB00DAB6C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722713CE1B2063BB00DAB6C8 /* ViewController.m */; };
+		722713D21B2063BB00DAB6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722713D01B2063BB00DAB6C8 /* Main.storyboard */; };
+		722713D41B2063BB00DAB6C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722713D31B2063BB00DAB6C8 /* Images.xcassets */; };
+		722713D71B2063BB00DAB6C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722713D51B2063BB00DAB6C8 /* LaunchScreen.xib */; };
+		722713E31B2063BB00DAB6C8 /* TrainPhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722713E21B2063BB00DAB6C8 /* TrainPhotoAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		722713DD1B2063BB00DAB6C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722713BB1B2063BB00DAB6C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722713C21B2063BB00DAB6C8;
+			remoteInfo = TrainPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		722713C31B2063BB00DAB6C8 /* TrainPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722713C71B2063BB00DAB6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722713C81B2063BB00DAB6C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		722713CA1B2063BB00DAB6C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		722713CB1B2063BB00DAB6C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		722713CD1B2063BB00DAB6C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		722713CE1B2063BB00DAB6C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		722713D11B2063BB00DAB6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		722713D31B2063BB00DAB6C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		722713D61B2063BB00DAB6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		722713DC1B2063BB00DAB6C8 /* TrainPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722713E11B2063BB00DAB6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722713E21B2063BB00DAB6C8 /* TrainPhotoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainPhotoAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722713C01B2063BB00DAB6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722713D91B2063BB00DAB6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722713BA1B2063BB00DAB6C8 = {
+			isa = PBXGroup;
+			children = (
+				722713C51B2063BB00DAB6C8 /* TrainPhotoApp */,
+				722713DF1B2063BB00DAB6C8 /* TrainPhotoAppTests */,
+				722713C41B2063BB00DAB6C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		722713C41B2063BB00DAB6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				722713C31B2063BB00DAB6C8 /* TrainPhotoApp.app */,
+				722713DC1B2063BB00DAB6C8 /* TrainPhotoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		722713C51B2063BB00DAB6C8 /* TrainPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				722713CA1B2063BB00DAB6C8 /* AppDelegate.h */,
+				722713CB1B2063BB00DAB6C8 /* AppDelegate.m */,
+				722713CD1B2063BB00DAB6C8 /* ViewController.h */,
+				722713CE1B2063BB00DAB6C8 /* ViewController.m */,
+				722713D01B2063BB00DAB6C8 /* Main.storyboard */,
+				722713D31B2063BB00DAB6C8 /* Images.xcassets */,
+				722713D51B2063BB00DAB6C8 /* LaunchScreen.xib */,
+				722713C61B2063BB00DAB6C8 /* Supporting Files */,
+			);
+			path = TrainPhotoApp;
+			sourceTree = "<group>";
+		};
+		722713C61B2063BB00DAB6C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				722713C71B2063BB00DAB6C8 /* Info.plist */,
+				722713C81B2063BB00DAB6C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		722713DF1B2063BB00DAB6C8 /* TrainPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				722713E21B2063BB00DAB6C8 /* TrainPhotoAppTests.m */,
+				722713E01B2063BB00DAB6C8 /* Supporting Files */,
+			);
+			path = TrainPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		722713E01B2063BB00DAB6C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				722713E11B2063BB00DAB6C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722713C21B2063BB00DAB6C8 /* TrainPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722713E61B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoApp" */;
+			buildPhases = (
+				722713BF1B2063BB00DAB6C8 /* Sources */,
+				722713C01B2063BB00DAB6C8 /* Frameworks */,
+				722713C11B2063BB00DAB6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainPhotoApp;
+			productName = TrainPhotoApp;
+			productReference = 722713C31B2063BB00DAB6C8 /* TrainPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		722713DB1B2063BB00DAB6C8 /* TrainPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722713E91B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoAppTests" */;
+			buildPhases = (
+				722713D81B2063BB00DAB6C8 /* Sources */,
+				722713D91B2063BB00DAB6C8 /* Frameworks */,
+				722713DA1B2063BB00DAB6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722713DE1B2063BB00DAB6C8 /* PBXTargetDependency */,
+			);
+			name = TrainPhotoAppTests;
+			productName = TrainPhotoAppTests;
+			productReference = 722713DC1B2063BB00DAB6C8 /* TrainPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722713BB1B2063BB00DAB6C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aokiharuki;
+				TargetAttributes = {
+					722713C21B2063BB00DAB6C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					722713DB1B2063BB00DAB6C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 722713C21B2063BB00DAB6C8;
+					};
+				};
+			};
+			buildConfigurationList = 722713BE1B2063BB00DAB6C8 /* Build configuration list for PBXProject "TrainPhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722713BA1B2063BB00DAB6C8;
+			productRefGroup = 722713C41B2063BB00DAB6C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722713C21B2063BB00DAB6C8 /* TrainPhotoApp */,
+				722713DB1B2063BB00DAB6C8 /* TrainPhotoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722713C11B2063BB00DAB6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722713D21B2063BB00DAB6C8 /* Main.storyboard in Resources */,
+				722713D71B2063BB00DAB6C8 /* LaunchScreen.xib in Resources */,
+				722713D41B2063BB00DAB6C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722713DA1B2063BB00DAB6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722713BF1B2063BB00DAB6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722713CF1B2063BB00DAB6C8 /* ViewController.m in Sources */,
+				722713CC1B2063BB00DAB6C8 /* AppDelegate.m in Sources */,
+				722713C91B2063BB00DAB6C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722713D81B2063BB00DAB6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722713E31B2063BB00DAB6C8 /* TrainPhotoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		722713DE1B2063BB00DAB6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722713C21B2063BB00DAB6C8 /* TrainPhotoApp */;
+			targetProxy = 722713DD1B2063BB00DAB6C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		722713D01B2063BB00DAB6C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722713D11B2063BB00DAB6C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		722713D51B2063BB00DAB6C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722713D61B2063BB00DAB6C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722713E41B2063BB00DAB6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		722713E51B2063BB00DAB6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722713E71B2063BB00DAB6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrainPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		722713E81B2063BB00DAB6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrainPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		722713EA1B2063BB00DAB6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrainPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainPhotoApp.app/TrainPhotoApp";
+			};
+			name = Debug;
+		};
+		722713EB1B2063BB00DAB6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrainPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainPhotoApp.app/TrainPhotoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722713BE1B2063BB00DAB6C8 /* Build configuration list for PBXProject "TrainPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722713E41B2063BB00DAB6C8 /* Debug */,
+				722713E51B2063BB00DAB6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722713E61B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722713E71B2063BB00DAB6C8 /* Debug */,
+				722713E81B2063BB00DAB6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		722713E91B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722713EA1B2063BB00DAB6C8 /* Debug */,
+				722713EB1B2063BB00DAB6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722713BB1B2063BB00DAB6C8 /* Project object */;
+}
