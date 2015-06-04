@@ -14,6 +14,7 @@
 		722713D41B2063BB00DAB6C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722713D31B2063BB00DAB6C8 /* Images.xcassets */; };
 		722713D71B2063BB00DAB6C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722713D51B2063BB00DAB6C8 /* LaunchScreen.xib */; };
 		722713E31B2063BB00DAB6C8 /* TrainPhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722713E21B2063BB00DAB6C8 /* TrainPhotoAppTests.m */; };
+		DC6CC82724279272DADF2539 /* libPods-TrainPhotoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31ACDBD5C9F23AC70C566958 /* libPods-TrainPhotoApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31ACDBD5C9F23AC70C566958 /* libPods-TrainPhotoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrainPhotoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		722713C31B2063BB00DAB6C8 /* TrainPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		722713C71B2063BB00DAB6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		722713C81B2063BB00DAB6C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		722713DC1B2063BB00DAB6C8 /* TrainPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		722713E11B2063BB00DAB6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		722713E21B2063BB00DAB6C8 /* TrainPhotoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainPhotoAppTests.m; sourceTree = "<group>"; };
+		858458B1C4D4F73770C9CDFB /* Pods-TrainPhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainPhotoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrainPhotoApp/Pods-TrainPhotoApp.release.xcconfig"; sourceTree = "<group>"; };
+		CE347E0FE55960C93CED8656 /* Pods-TrainPhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainPhotoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrainPhotoApp/Pods-TrainPhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6CC82724279272DADF2539 /* libPods-TrainPhotoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				722713C51B2063BB00DAB6C8 /* TrainPhotoApp */,
 				722713DF1B2063BB00DAB6C8 /* TrainPhotoAppTests */,
 				722713C41B2063BB00DAB6C8 /* Products */,
+				E616A408DFD0C77A30012FF4 /* Pods */,
+				976A75EB431F2896E9DB8829 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +88,7 @@
 		722713C51B2063BB00DAB6C8 /* TrainPhotoApp */ = {
 			isa = PBXGroup;
 			children = (
+				722713EC1B206CB600DAB6C8 /* Images */,
 				722713CA1B2063BB00DAB6C8 /* AppDelegate.h */,
 				722713CB1B2063BB00DAB6C8 /* AppDelegate.m */,
 				722713CD1B2063BB00DAB6C8 /* ViewController.h */,
@@ -119,6 +127,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		722713EC1B206CB600DAB6C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		976A75EB431F2896E9DB8829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31ACDBD5C9F23AC70C566958 /* libPods-TrainPhotoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E616A408DFD0C77A30012FF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE347E0FE55960C93CED8656 /* Pods-TrainPhotoApp.debug.xcconfig */,
+				858458B1C4D4F73770C9CDFB /* Pods-TrainPhotoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722713E61B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoApp" */;
 			buildPhases = (
+				2D0638EA6C4B0C748B2F89CC /* Check Pods Manifest.lock */,
 				722713BF1B2063BB00DAB6C8 /* Sources */,
 				722713C01B2063BB00DAB6C8 /* Frameworks */,
 				722713C11B2063BB00DAB6C8 /* Resources */,
+				FAB2DAC9AD716957A6200DE7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +202,7 @@
 				TargetAttributes = {
 					722713C21B2063BB00DAB6C8 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SV7XBS2NZS;
 					};
 					722713DB1B2063BB00DAB6C8 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -213,6 +248,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D0638EA6C4B0C748B2F89CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB2DAC9AD716957A6200DE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrainPhotoApp/Pods-TrainPhotoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		722713BF1B2063BB00DAB6C8 /* Sources */ = {
@@ -345,21 +413,29 @@
 		};
 		722713E71B2063BB00DAB6C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE347E0FE55960C93CED8656 /* Pods-TrainPhotoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrainPhotoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		722713E81B2063BB00DAB6C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858458B1C4D4F73770C9CDFB /* Pods-TrainPhotoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrainPhotoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +492,7 @@
 				722713E81B2063BB00DAB6C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		722713E91B2063BB00DAB6C8 /* Build configuration list for PBXNativeTarget "TrainPhotoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +501,7 @@
 				722713EB1B2063BB00DAB6C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
