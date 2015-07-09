@@ -120,18 +120,39 @@
         [newView show];
     }
 }
--(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     // 画像
     UIImage *originalImage = (UIImage *)[info objectForKey:UIImagePickerControllerOriginalImage];
     // 画像を保存
     UIImageWriteToSavedPhotosAlbum(originalImage, nil, nil, nil);
     // ②Parseに保存するため、Data型にコンバートして格納
-    self.imgData = UIImageJPEGRepresentation(image, 0.5f);
+
+    
+    [self saveToParse:UIImagePNGRepresentation(originalImage)];
+    
+    
     // 最初の画面に戻る
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+
+- (void)saveToParse:(NSData *)data {
+    PFObject *insertObject = [PFObject objectWithClassName:@"Photo"];
+    PFFile *imageFile = [PFFile fileWithName:@"image.png" data:data];
+    insertObject[@"image"] = imageFile;
+    // 作ったPFObjectをParseに保存
+    [insertObject saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (!error) {
+            NSLog(@"Save成功");
+        }
+        else{
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+}
 
 
 

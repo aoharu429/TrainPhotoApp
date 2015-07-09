@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TrainPhotoApp-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TrainPhotoApp-Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TrainPhotoApp-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TrainPhotoApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2524DB1859D443E39FB47EFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>428AC466A2E2BDAD1684BEF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F842B04D9AB47FA79926364</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81ADF58EB1C59CB3BA133C32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
